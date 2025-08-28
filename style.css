@@ -1,0 +1,105 @@
+body {
+    background: url('azul.webp') no-repeat;
+    /*url e onde vai buscar e background poe imagem de fundo*/
+    background-size: cover;
+    /*cover deixa a img do tamanho da pagina*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /*sem margens entre informacoes*/
+    padding: 0;
+    /*sem espacamento lateral*/
+    color: black;
+}
+
+header {
+    background-color: brown;
+    color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    /*alterar o nome bibblioteca vitual*/
+    margin: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    /*tira as bolinhas nos itens none:nenhum*/
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    /*deixa tudo em linha*/
+    margin: 0 10px;
+    /*0 para cima e 10 para baixo*/
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-style: none;
+}
+
+section {
+    padding: 20px;
+    /*padding e amargem entre elementos*/
+    margin: 0 10px;
+}
+
+.cartao {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0, 8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 2);
+    transition: transform 0, 3s ease box-shadow 0, 3s
+}
+
+.cartao:hover {
+    /*:hover passar mouse na imagem movimenta-a*/
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0, 2);
+}
+
+.cartao img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sobre {}
+
+p {
+    text-indent: 20px;
+}
+
+.contatos {
+    .texto-canto {
+        position: fixed;
+        /* Fixa o texto na posição desejada */
+        bottom: 0;
+        /* Alinha ao fundo da tela */
+        left: 0;
+        /* Alinha à esquerda da tela */
+        margin: 10px;
+        /* Adiciona uma margem para afastar das bordas */
+        font-size: 16px;
+        /* Tamanho da fonte */
+        padding: 5px;
+        /* Espaçamento interno */
+        border-radius: 5px;
+        /* Bordas arredondadas */
+    }
+}
